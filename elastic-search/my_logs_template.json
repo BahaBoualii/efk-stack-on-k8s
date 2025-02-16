@@ -1,0 +1,7 @@
+{
+    "index_patterns": ["fluentd-*"],
+    "settings": {
+      "index.lifecycle.name": "my_logs_policy",
+      "index.lifecycle.rollover_alias": "my-logs"
+    }
+  }
